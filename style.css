@@ -86,8 +86,8 @@ header {
 }
 
 .topHeaderContainer button:hover {
-    background-color: #9A54BC;
-    color: white;
+    background-color:white;
+    color: #9A54BC;
 }
 
 .elipsesContainer {
