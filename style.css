@@ -242,6 +242,10 @@ header {
     text-align: center;
 }
 
+.videoMainContainer iframe {
+    width: 60%;
+}
+
 .projectDoneContainer {
     display: flex;
     margin-top: 150px;
@@ -256,12 +260,14 @@ header {
     justify-content: center;
     align-items: center;
     gap: 100px;
+    width: 80%;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 30%;
 }
 
 .card p,span {
@@ -270,9 +276,49 @@ header {
 }
 
 .card img {
-    width: 400px;
+    width: 100%;
 }
 
 .card p {
     color: #60267F;
+}
+
+.bigCardContainer {
+    display: flex;
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigCardsTopPara {
+    color: #A79D9D;
+    margin-top: 15px;
+}
+
+.monthYearContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.monthYearContainer img {
+    width: 35px;
+}
+.monthly {
+   color: #A79D9D;
+}
+
+.yearly {
+    font-weight: 500;
+    color: #2B0236;
+}
+
+.discount {
+    font-size: 12px;
+    background-color: #FFE87A;
+    padding: 3px 4px;
+    border-radius: 5px;
 }
