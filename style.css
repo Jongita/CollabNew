@@ -322,3 +322,273 @@ header {
     padding: 3px 4px;
     border-radius: 5px;
 }
+
+.bigThreeCardContainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.bigCard {
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    height: 400px;
+    width: 250px;
+}
+
+.bigCard h4 {
+    margin: 12px 40px;
+}
+.bigCard h2 {
+    margin: 15px 40px;
+}
+
+.bigCard button {
+    padding: 15px 45px;
+    border-radius: 5px;
+    border-color: #2B0236;
+    color: #2B0236;
+    font-weight: 600;
+    margin-left: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.bigCardText {
+    font-size: 13px;
+    margin: 20px 30px;
+    padding: 0 1em;
+    list-style: none;
+}
+
+
+.bigCardText li::before {
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+.bigCard p {
+    margin: 45px 35px;
+    font-size: 13px;
+}
+
+.bigCard:hover {
+ background-color: #56E6A5;
+}
+
+.designationMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.designationParaArrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 100px;
+}
+
+.designationParaArrows p {
+    padding: 0 120px;
+    font-size: 14px;
+}
+
+.designationParaArrows img{
+    cursor: pointer;
+}
+
+.designationPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.designationPara img {
+    width: 100px;
+}
+.exploreOpportunitiesMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+  
+}
+.exploreOpportunitiesMainContainer p {
+    margin: 40px 200px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.exploreOpportunitiesPictures {
+    /* width: 70%;
+    height: 50%; */
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+    
+}
+.exploreOpportunitiesPictures button {
+    margin-top: 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9A54BC;
+    color: white;
+    cursor: pointer;
+}
+
+.explore10 {
+   position: absolute;
+   top: 40px;
+   width: 1200px;
+
+}
+.explore1 {
+    position: absolute;
+    top: 0;
+    right: 630px;
+    width: 100px;
+}
+
+.explore2 {
+    position: absolute;
+    right: 480px;
+    top: 200px;
+    width: 100px;
+}
+
+.explore3 {
+    position: absolute;
+    right: 310px;
+    top: 160px;
+    width: 100px;
+}
+
+.explore4 {
+    position: absolute;
+    right: 150px;
+    top: 250px;
+    width: 100px;
+}
+
+.explore5 {
+    position: absolute;
+    width: 100px;
+    top: 260px;
+    left: 150px;
+}
+
+.explore6 {
+    position: absolute;
+    width: 100px;
+    left: 370px;
+    top: 240px;
+}
+
+.explore7 {
+    position: absolute;
+    width: 100px;
+    left: 550px;
+    top: 250px;
+}
+
+.explore8 {
+    position: absolute;
+    width: 100px;
+    left: 630px;
+    top: 130px;
+}
+
+.explore9 {
+    position: absolute;
+    width: 50px;
+    left: 500px;
+    top: 120px;
+}
+
+.collabMainContainer {
+    /* margin-top: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9A54BC;
+}
+
+.downloadCollabMobile {
+    color: white;
+    text-align: center;
+    margin-top: 105px;
+
+}
+
+.downloadCollabMobileButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    margin-bottom: 105px;
+}
+
+.downloadCollabMobileButton button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color:white;
+    font-weight: 600;
+    background-color: #9A54BC;
+    cursor: pointer;
+}
+
+.downloadCollabMobileButton button:hover {
+    color: #9A54BC;
+    background-color: white;
+}
+
+.questionMainContainer {
+    display: flex;
+    width: 100%;
+    background-color: #e2bdf277;
+}
+
+.stillHaveQuestionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.questionMainContainer iframe {
+    width: 55%;
+}
+
+.stillHaveQuestionContainer h2 {
+    margin-bottom: 40px;
+}
+
+.stillHaveQuestionContainer p {
+    margin-top: 30px;
+}
