@@ -336,6 +336,7 @@ header {
     border-radius: 10px;
     height: 400px;
     width: 250px;
+    transition: all 0.2s ease-in-out;
 }
 
 .bigCard h4 {
@@ -378,6 +379,13 @@ header {
     position: relative;
 }
 
+/* trikampiukai kitas naujesnis variantas
+.bigCard ul li::marker {
+    content: "▶";
+    
+}
+
+*/
 .bigCard p {
     margin: 45px 35px;
     font-size: 13px;
@@ -385,6 +393,7 @@ header {
 
 .bigCard:hover {
  background-color: #56E6A5;
+
 }
 
 .designationMainContainer {
@@ -401,6 +410,17 @@ header {
     align-items: center;
     margin: 70px 100px;
 }
+
+/* strelytes 
+bootstrapicons
+instaliuoti boostrap per npm 
+CDN htmle linkas iklijuoti
+.designationParaArrows p::before {
+// prie arror rasime CSS koduka
+font-family: "bootstrap-icons";
+content: "\F12F"
+
+*/
 
 .designationParaArrows p {
     padding: 0 120px;
