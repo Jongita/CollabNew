@@ -1,0 +1,17 @@
+.videoMainContainer {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.videoMainContainer p {
+    width: 50%;
+    text-align: center;
+}
+
+.videoMainContainer iframe {
+    width: 60%;
+}

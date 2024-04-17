@@ -1,0 +1,39 @@
+.collabMainContainer {
+    /* margin-top: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9A54BC;
+}
+
+.downloadCollabMobile {
+    color: white;
+    text-align: center;
+    margin-top: 105px;
+
+}
+
+.downloadCollabMobileButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    margin-bottom: 105px;
+}
+
+.downloadCollabMobileButton button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    background-color: #9A54BC;
+    cursor: pointer;
+}
+
+.downloadCollabMobileButton button:hover {
+    color: #9A54BC;
+    background-color: white;
+}

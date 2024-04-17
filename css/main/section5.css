@@ -1,0 +1,37 @@
+.projectDoneContainer {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projectDoneCardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+}
+
+.card p,
+span {
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    color: #60267F;
+}

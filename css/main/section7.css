@@ -1,0 +1,46 @@
+.designationMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.designationParaArrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 100px;
+}
+
+/* strelytes 
+bootstrapicons
+instaliuoti boostrap per npm 
+CDN htmle linkas iklijuoti
+.designationParaArrows p::before {
+// prie arror rasime CSS koduka
+font-family: "bootstrap-icons";
+content: "\F12F"
+
+*/
+
+.designationParaArrows p {
+    padding: 0 120px;
+    font-size: 14px;
+}
+
+.designationParaArrows img {
+    cursor: pointer;
+}
+
+.designationPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.designationPara img {
+    width: 100px;
+}

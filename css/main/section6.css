@@ -1,0 +1,114 @@
+
+.bigCardContainer {
+    display: flex;
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigCardsTopPara {
+    color: #A79D9D;
+    margin-top: 15px;
+}
+
+.monthYearContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.monthYearContainer img {
+    width: 35px;
+}
+
+.monthly {
+    color: #A79D9D;
+}
+
+.yearly {
+    font-weight: 500;
+    color: #2B0236;
+}
+
+.discount {
+    font-size: 12px;
+    background-color: #FFE87A;
+    padding: 3px 4px;
+    border-radius: 5px;
+}
+
+.bigThreeCardContainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.bigCard {
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    height: 400px;
+    width: 250px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bigCard h4 {
+    margin: 12px 40px;
+}
+
+.bigCard h2 {
+    margin: 15px 40px;
+}
+
+.bigCard button {
+    padding: 15px 45px;
+    border-radius: 5px;
+    border-color: #2B0236;
+    color: #2B0236;
+    font-weight: 600;
+    margin-left: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.bigCardText {
+    font-size: 13px;
+    margin: 20px 30px;
+    padding: 0 1em;
+    list-style: none;
+}
+
+
+.bigCardText li::before {
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+/* trikampiukai kitas naujesnis variantas
+.bigCard ul li::marker {
+    content: "▶";
+    
+} */
+
+.bigCard p {
+    margin: 45px 35px;
+    font-size: 13px;
+}
+
+.bigCard:hover {
+    background-color: #56E6A5;
+
+} 

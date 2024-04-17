@@ -1,0 +1,108 @@
+.exploreOpportunitiesMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+
+}
+
+.exploreOpportunitiesMainContainer p {
+    margin: 40px 200px;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.exploreOpportunitiesPictures {
+    /* width: 70%;
+    height: 50%; */
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+
+}
+
+.exploreOpportunitiesPictures button {
+    margin-top: 0;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9A54BC;
+    color: white;
+    cursor: pointer;
+}
+
+.explore10 {
+    position: absolute;
+    top: 40px;
+    width: 1200px;
+
+}
+
+.explore1 {
+    position: absolute;
+    top: 0;
+    right: 630px;
+    width: 100px;
+}
+
+.explore2 {
+    position: absolute;
+    right: 480px;
+    top: 200px;
+    width: 100px;
+}
+
+.explore3 {
+    position: absolute;
+    right: 310px;
+    top: 160px;
+    width: 100px;
+}
+
+.explore4 {
+    position: absolute;
+    right: 150px;
+    top: 250px;
+    width: 100px;
+}
+
+.explore5 {
+    position: absolute;
+    width: 100px;
+    top: 260px;
+    left: 150px;
+}
+
+.explore6 {
+    position: absolute;
+    width: 100px;
+    left: 370px;
+    top: 240px;
+}
+
+.explore7 {
+    position: absolute;
+    width: 100px;
+    left: 550px;
+    top: 250px;
+}
+
+.explore8 {
+    position: absolute;
+    width: 100px;
+    left: 630px;
+    top: 130px;
+}
+
+.explore9 {
+    position: absolute;
+    width: 50px;
+    left: 500px;
+    top: 120px;
+}
