@@ -1,108 +1,89 @@
-.exploreOpportunitiesMainContainer {
+.snakeContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
-
-}
-
-.exploreOpportunitiesMainContainer p {
-    margin: 40px 200px;
+    gap: 50px;
+    margin-top: 100px;
     text-align: center;
-    font-size: 14px;
-
 }
 
-.exploreOpportunitiesPictures {
-    /* width: 70%;
-    height: 50%; */
-    position: relative;
-    margin-top: 40px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-    min-height: 500px;
-
-}
-
-.exploreOpportunitiesPictures button {
-    margin-top: 0;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 5px;
+.snakeContainer button {
+    padding: 15px 30px;
     background-color: #9A54BC;
+    border: none;
+    border: 1px solid #9A54BC;
+    border-radius: 7px;
     color: white;
-    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
 }
 
-.explore10 {
-    position: absolute;
-    top: 40px;
-    width: 1200px;
-
+.snakeContainer button:hover {
+    background-color: white;
+    color: #9A54BC
 }
 
-.explore1 {
-    position: absolute;
-    top: 0;
-    right: 630px;
-    width: 100px;
+.snakeImgContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 900px;
 }
 
-.explore2 {
+.snakeImgContainer img {
     position: absolute;
-    right: 480px;
-    top: 200px;
-    width: 100px;
 }
 
-.explore3 {
-    position: absolute;
-    right: 310px;
+.line {
+    min-width: 900px;
+    margin-top: 200px;
+    z-index: -1;
+}
+
+.face1 {
+    top: -25px;
+    left: -25px;
+}
+
+.face2 {
+    top: 140px;
+    left: 110px;
+}
+
+.face3 {
+    top: 110px;
+    left: 250px;
+}
+
+.face4 {
+    top: 180px;
+    left: 360px;
+}
+
+.face5 {
+    top: 190px;
+    left: 490px;
+}
+
+.face6 {
     top: 160px;
-    width: 100px;
-}
-
-.explore4 {
-    position: absolute;
-    right: 150px;
-    top: 250px;
-    width: 100px;
-}
-
-.explore5 {
-    position: absolute;
-    width: 100px;
-    top: 260px;
-    left: 150px;
-}
-
-.explore6 {
-    position: absolute;
-    width: 100px;
-    left: 370px;
-    top: 240px;
-}
-
-.explore7 {
-    position: absolute;
-    width: 100px;
-    left: 550px;
-    top: 250px;
-}
-
-.explore8 {
-    position: absolute;
-    width: 100px;
     left: 630px;
-    top: 130px;
 }
 
-.explore9 {
-    position: absolute;
-    width: 50px;
-    left: 500px;
-    top: 120px;
+.face7 {
+    top: 170px;
+    left: 810px;
+}
+
+.face8 {
+    top: 100px;
+    left: 860px;
+}
+
+.you {
+    top: 68px;
+    left: 750px;
+    min-height: 15px;
 }

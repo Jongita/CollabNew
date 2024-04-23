@@ -15,6 +15,7 @@
     "batch": "^0.6.1",
     "bcryptjs": "^2.4.3",
     "binary-extensions": "^2.3.0",
+    "bootstrap-icons": "^1.11.3",
     "braces": "^3.0.2",
     "chalk": "^4.1.2",
     "chokidar": "^3.6.0",
