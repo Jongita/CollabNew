@@ -1,0 +1,98 @@
+.footerContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #E2BDF21C;
+    margin-top: 50px;
+}
+
+.socialMediaContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.socialMedia {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footerLogo {
+    width: 150px;
+}
+
+.footerText {
+    width: 50%;
+}
+
+.footerFollow {
+    font-weight: 600;
+}
+
+.socialMediaIcons {
+    display: flex;
+    gap: 20px;
+}
+
+.socialMediaIcons img {
+    width: 30px;
+}
+
+.footerTableContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerTableContainer table {
+    width: 90%;
+    height: 50%;
+}
+
+.footerTableContainer table thead th,
+tbody td {
+    width: 33%;
+    text-align: start;
+}
+
+.footerTableContainer tbody td {
+    width: 33%;
+    text-align: start;
+    color: #60267f;
+}
+
+.footerTableContainer thead th {
+    padding-bottom: 10px;
+}
+
+.footerTableContactUs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.footerTableContactUs p {
+    font-weight: 500;
+}
+
+.footerTableContactUs a {
+    font-weight: 500;
+    color: #60267f;
+    text-decoration: none;
+}
+
+.lastLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #60267f;
+    color: white;
+    font-weight: 200;
+    width: 100%;
+}
