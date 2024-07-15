@@ -20,7 +20,9 @@ Design: [Collab project](<https://www.figma.com/file/9mV6rCFOEd1ptuZ4JBovVS/Coll
 ## 🎯 Project features/goals
 
 -   Github pages
--   Responsive design
+-   NOresponsive design
+-   favicon
+-   fontAwesome icons
 -   css `display:flex`
 
 ## 🧰 Getting Started
